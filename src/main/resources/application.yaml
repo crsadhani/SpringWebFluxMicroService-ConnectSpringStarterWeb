@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: local
+restClient:
+  groupInfoUrl: http://localhost:8081/sinecams/groups/groupDevices
+  deviceInfoUrl: http://localhost:8081/sinecams/networks/devices
+  portInfoUrl: http://localhost:8081/sinecams/ports
+server:
+  port: 8082
+
+logging:
+  level:
+    root: DEBUG
